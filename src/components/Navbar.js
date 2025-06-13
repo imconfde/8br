@@ -33,17 +33,6 @@ function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="row">
-          <h1 className="logo">
-            <Link
-              spy={true}
-              smooth={true}
-              duration={1000}
-              to="headerbg"
-              style={{ cursor: "pointer" }}
-            >
-              Logo
-            </Link>
-          </h1>
           <ul className="bar">
             <li>
               <Link
@@ -54,31 +43,43 @@ function Navbar() {
                 duration={1000}
                 to="headerbg"
               >
-                Home
+                Главная
               </Link>
             </li>
             <li>
               <Link
                 onClick={openBar}
                 activeClass="active"
-                to="services"
-                spy={true}
-                smooth={true}
-                duration={1000}
-              >
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link
-                onClick={openBar}
                 to="about-scroll"
                 spy={true}
                 smooth={true}
                 duration={1000}
+              >
+                О конференции
+              </Link>
+            </li>
+            <li>
+              <Link
+                onClick={openBar}
+                to="sections"
+                spy={true}
+                smooth={true}
+                duration={1000}
                 activeClass="active"
               >
-                About
+                Секции
+              </Link>
+            </li>
+            <li>
+              <Link
+                onClick={openBar}
+                to="program"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                activeClass="active"
+              >
+                Программа
               </Link>
             </li>
             <li>
@@ -90,7 +91,7 @@ function Navbar() {
                 duration={1000}
                 activeClass="active"
               >
-                Contact
+                Контакт
               </Link>
             </li>
           </ul>

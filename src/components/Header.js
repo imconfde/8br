@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header>
-      <img alt="about" src={require('../img/img1.png')} className="img-header"/>
+      <img alt="about" src={require('../img/bsu.jpg')} className="img-header"/>
       <h1>Open Source Website</h1>
       <div className="row">
         <button className="btn" style={{ cursor: "pointer" }}>
