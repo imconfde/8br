@@ -33,6 +33,17 @@ function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="row">
+          <h1 className="logo">
+            <Link
+              spy={true}
+              smooth={true}
+              duration={1000}
+              to="headerbg"
+              style={{ cursor: "pointer" }}
+            >
+              Logo
+            </Link>
+          </h1>
           <ul className="bar">
             <li>
               <Link
@@ -73,25 +84,13 @@ function Navbar() {
             <li>
               <Link
                 onClick={openBar}
-                to="program"
+                to="registration"
                 spy={true}
                 smooth={true}
                 duration={1000}
                 activeClass="active"
               >
-                Программа
-              </Link>
-            </li>
-            <li>
-              <Link
-                onClick={openBar}
-                to="contact"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                activeClass="active"
-              >
-                Контакт
+                Регистрация
               </Link>
             </li>
           </ul>

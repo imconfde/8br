@@ -146,6 +146,7 @@ code {
 }
 
 .navbar .logo {
+  display: none;
   transition: all 0.2s;
   align-items: center;
   align-content: center;
@@ -212,7 +213,7 @@ code {
   z-index: 0;
   top: 0;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 header {
@@ -228,7 +229,18 @@ header {
 header h1 {
   z-index: 1;
   color: white;
-  font-size: 64px;
+  text-align: center;
+  font-size: 54px;
+  padding: 0 15px;
+}
+
+header h2 {
+  z-index: 1;
+  color: white;
+  text-align: center;
+  font-size: 34px;
+  padding: 0 15px;
+  font-style: italic;
 }
 
 .opened {
@@ -476,7 +488,11 @@ ul li a {
 @media (max-width: 768px) { 
   header h1 {
     text-align: center;
-    font-size: 44px!important;
+    font-size: 34px!important;
+  }
+  header h2 {
+    text-align: center;
+    font-size: 24px!important;
   }
   .container {
     max-width: 720px;
@@ -538,7 +554,12 @@ ul li a {
     width: auto;
   }
   header h1 {
-    font-size: 44px;
+    font-size: 30px!important;
+    padding: 0;
+  }
+  header h2 {
+    font-size: 20px!important;
+    padding: 0;
   }
   .btn {
     padding:  10px 30px;
@@ -550,6 +571,8 @@ ul li a {
     transform:translateX(0);
   }
   .navbar .logo {
+    display: block;
+    visibility: hidden;
     z-index: 3;
     color: #fafafa;
     padding-top: 0;
@@ -581,7 +604,7 @@ ul li a {
     display: block;
   }
   .navbar ul li a {
-      cursor: pointer;
+    cursor: pointer;
     font-size: 20px;
     text-decoration: none;
     color: #fafafa;
