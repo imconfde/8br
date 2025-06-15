@@ -61,8 +61,8 @@ code {
 }
 
 .img-fluid {
-  max-width: 60%;
-  width: 50%;
+  max-width: 70%;
+  width: 60%;
 }
 
 .text-center {
@@ -249,17 +249,17 @@ header h2 {
 
 /* Main */
 .main-title {
-  font-size: 48px;
+  font-size: 34px;
   color: #144e9d;
 }
 
 .main-p {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
 }
 
 main {
-  padding: 3rem 0;
+  padding: 2rem 0;
   background-color: #fafafa;
   width: 100%;
 }
@@ -610,11 +610,20 @@ ul li a {
     color: #fafafa;
     font-weight: 500;
   }
+  .row .bar {
+    margin: 0;
+  }
   .col-md-6 {
     width: 100%;
   }
   .row {
     display: inline-block;
+  }
+  .main-p {
+    font-size: 18px;
+  }
+  .img-fluid {
+    display: none;
   }
 }
 
