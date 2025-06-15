@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/8br/static/css/main.d74a90ff.css",
-    "main.js": "/8br/static/js/main.f62fc5b2.js",
+    "main.css": "/8br/static/css/main.cd8db820.css",
+    "main.js": "/8br/static/js/main.6d2d81b2.js",
+    "static/media/bsu.jpg": "/8br/static/media/bsu.477dd7974d45b32d19b0.jpg",
     "static/media/card3.png": "/8br/static/media/card3.6909c4ada4504482d7f1.png",
     "static/media/img1.png": "/8br/static/media/img1.3f55b7b7762f8b209d54.png",
     "static/media/card1.png": "/8br/static/media/card1.3eb61fbfa8dc4fdf4520.png",
+    "static/media/ode-logo.jpg": "/8br/static/media/ode-logo.a0947380957ed0acec75.jpg",
     "static/media/card2.png": "/8br/static/media/card2.52f1e7a80ecc5ba2064c.png",
     "index.html": "/8br/index.html",
-    "main.d74a90ff.css.map": "/8br/static/css/main.d74a90ff.css.map",
-    "main.f62fc5b2.js.map": "/8br/static/js/main.f62fc5b2.js.map"
+    "main.cd8db820.css.map": "/8br/static/css/main.cd8db820.css.map",
+    "main.6d2d81b2.js.map": "/8br/static/js/main.6d2d81b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.d74a90ff.css",
-    "static/js/main.f62fc5b2.js"
+    "static/css/main.cd8db820.css",
+    "static/js/main.6d2d81b2.js"
   ]
 }
