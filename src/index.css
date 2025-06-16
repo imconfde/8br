@@ -230,7 +230,7 @@ header h1 {
   z-index: 1;
   color: white;
   text-align: center;
-  font-size: 54px;
+  font-size: 56px;
   padding: 0 15px;
 }
 
@@ -504,6 +504,9 @@ ul li a {
   .col-md-4 {
     width: 55.9%!important;
   }
+  .main-title {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 576px) { 
@@ -620,7 +623,10 @@ ul li a {
     display: inline-block;
   }
   .main-p {
-    font-size: 18px;
+    font-size: 16px;
+  }
+  .main-title {
+    font-size: 20px;
   }
   .img-fluid {
     display: none;
