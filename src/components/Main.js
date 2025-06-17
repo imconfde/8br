@@ -1,5 +1,6 @@
 import About from './About';
 import Organizers from './Organizers';
+import Registration from './Registration';
 import Contact from './Contact';
 
 function Main() {
@@ -8,6 +9,7 @@ function Main() {
       <main>
         <About />
         <Organizers />
+        <Registration />
         <Contact />
       </main>
     </>
