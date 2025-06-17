@@ -1,13 +1,13 @@
-import About from '../components/About';
-import Services from '../components/Services';
-import Contact from '../components/Contact';
+import About from './About';
+import Committees from './Committees';
+import Contact from './Contact';
 
 function Main() {
   return (
     <>
       <main>
         <About />
-        <Services />
+        <Committees />
         <Contact />
       </main>
     </>

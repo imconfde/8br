@@ -72,23 +72,23 @@ function Navbar() {
             <li>
               <Link
                 onClick={openBar}
-                to="sections"
+                activeClass="active"
+                to="committees-scroll"
                 spy={true}
                 smooth={true}
                 duration={1000}
-                activeClass="active"
               >
-                Секции
+                Комитеты
               </Link>
             </li>
             <li>
               <Link
                 onClick={openBar}
+                activeClass="active"
                 to="registration"
                 spy={true}
                 smooth={true}
                 duration={1000}
-                activeClass="active"
               >
                 Регистрация
               </Link>
