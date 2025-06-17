@@ -1,5 +1,5 @@
 import About from './About';
-import Committees from './Committees';
+import Organizers from './Organizers';
 import Contact from './Contact';
 
 function Main() {
@@ -7,7 +7,7 @@ function Main() {
     <>
       <main>
         <About />
-        <Committees />
+        <Organizers />
         <Contact />
       </main>
     </>

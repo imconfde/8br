@@ -1,10 +1,14 @@
-function Committees() {
+function Organizers() {
   return (
     <>
-      <div style={{width:'100%'}} className="committees-scroll"></div>
+      <div style={{width:'100%'}} className="organizers-scroll"></div>
 
-      <div className="container committees">
-        <h2 className="main-title text-center">КОМИТЕТЫ</h2>
+      <div className="container organizers">
+        <h2 className="main-title text-center">ОРГАНИЗАТОРЫ</h2>
+        <p className="main-p">
+          Организаторами конференции выступают Белорусский государственный университет и 
+          Государственное научное учреждение «Институт математики Национальной академии наук Беларуси».
+        </p>
         <div>
           <h2 className="main-title">Программный комитет</h2>
           <p className="p-member"><b>С.А. Мазаник</b> – профессор кафедры фундаментальной математики и интеллектуальных систем Белгосуниверситета (зам. председателя)</p>
@@ -21,8 +25,15 @@ function Committees() {
           <p className="p-member"><b>А.В. Филипцов</b> – доцент кафедры фундаментальной математики и интеллектуальных систем Белгосуниверситета (секретарь)</p>
           <p className="p-member">and others...</p>
         </div>
+        <div>
+          <h2 className="main-title">Адрес организационного комитета</h2>
+          <p className="main-p">Республика Беларусь, 220050, г. Минск, пр. Независимости, 4, 541,
+            Белгосуниверситет, кафедра фундаментальной математики и интеллектуальных систем.
+            Телефон: (+375 17) 209-50-72. Контактный e-mail: ?????
+          </p>
+        </div>
       </div>
     </>
   );
 }
-export default Committees;
+export default Organizers;
