@@ -1,0 +1,102 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsfonts,amssymb,eucal}
+%\usepackage{mathenv}
+\usepackage{amsmath}
+\usepackage{wrapfig}
+\usepackage{multirow}
+\usepackage[dvips]{graphicx}
+\usepackage[dvips]{epsfig}
+
+
+%\usepackage[cp866]{inputenc}   %if the document contains DOS-codes
+\usepackage[cp1251]{inputenc} %if the document contains WIN-codes
+%\usepackage[koi8-r]{inputenc} %if the document contains DOS-codes
+\usepackage[russian]{babel}    %if you use cyrillic
+
+
+
+\setlength{\textwidth}{162mm} \setlength{\textheight}{240mm}
+\setlength{\topmargin}{-20mm} \addtolength{\oddsidemargin}{-13mm}
+\addtolength{\evensidemargin}{-31mm} \setlength{\baselineskip}{18pt}
+\headheight=5.0mm % üõ¿ª³ ôv  ú³v³ýªøª³vð
+\headsep=3.6mm % ³ª¿ª³ÿ ÿ³¿võ ú³v³ýªøª³vð
+\footskip=7.1mm % ¨ð¿¿ª³ ýøõ ô³ ú³v³ýªøª³vð
+
+\begin{document}
+
+%TITLE
+\begin{center}
+{\bf ON EXPANSION OF LEBESGUE INTEGRABLE FUNCTIONS\\
+IN SERIES OF LEGENDRE FUNCTIONS}
+\end{center}
+
+%Initials Name
+\begin{center}
+A.A. First, and B.B. Second
+\end{center}
+
+The Legendre functions considered are certain solutions
+$y=P_{\nu}^{\mu}(x)$, on $-1<x<1$ of the following equation (see
+[1]):
+$$
+\frac{d}{dx} \bigg( (1 - x^2)\frac{dy}{dx}\bigg) +
+\bigg(\nu(\nu + 1)-\frac{\mu^{2}}{1 - x^2}\bigg) y = 0.
+\eqno(1)
+$$
+
+In our report we discuss the possibility for an integrable function
+$f$ to be expanded in series of Legendre functions. The results
+presented generalize those obtained in [2].
+
+{\bf Theorem 1.} {\it If $(1 - t^2)^{-1/4} f(t)\in L(-1,1)$ and
+$f$ satisfies the Dini condition at a certain $a\in (-1,1)$
+(see e.g. [3]), $|{\rm Re}\,\mu|<1/2,$
+$\nu$ is not a half of an odd integer, and
+$$
+a_n = (-1)^n \frac{\nu + n + {1\over 2}}{2\cos \nu\pi}
+\int\limits_{-1}^{1} f(t) P_{\nu + n}^{-\mu}(-t)\,dt,
+$$
+then
+$$
+f(x) = \sum\limits_{-\infty}^{+\infty} a_n P_{\nu + n}^{\mu}(x),
+$$
+where $P_{k}^{\mu}$ are determined in $(1).$}
+
+{\bf Sketch of the proof.} ...
+
+{\bf Acknowledgements.} The work is partially supported by NSF.
+
+\vspace{-1ex}{\small
+\begin{center}{\bf References}\end{center}\vspace{-1ex}
+
+
+1. Erdelyi A., Magnus W., Oderhettinger F., and Tricomi F.~G.
+{\it Higher Transcendential Functions.} V.~1. New York,
+McGraw-Hill, 1953.
+
+2. Love E.~R., Hunter M.~N.
+{\it Expansions in series of Legendre functions}
+//~Proc. London Math. Soc. 1992. Vol.~64. \textnumero~{3}. P. 579--601.
+
+3. Love E.~R., Hunter M.~N. {\it Expansions in series of Legendre
+functions.} In: Boundary Value Problems, Special Functions
+and Fractional Calculus (Eds. I.~V.~Gai\-shun et al.) Minsk, BSU, 1996. P. 204--214.
+
+}
+
+\newpage
+\newcommand{\nn}[2]{\textit{#1}\ {#2}}
+\newcommand{\avt}[3]{\textit{#1}\ {#2}\ \textsf{#3}}
+
+\nn{First A.A., Second B.B.}{On expansion of Lebesgue integrable functions in series of Legendre functions}
+
+\begin{center}
+\bf AUTHORS
+\end{center}
+
+\avt{First A.A.}{Institute ... Melbourne, Australia}{first@mail.com}
+
+\avt{Second B.B.}{University ... Tokio, Japan}{second@mail.com}
+
+\end{document}
