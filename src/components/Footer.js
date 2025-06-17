@@ -60,7 +60,7 @@ function Footer() {
                 <p className="footer-title">Social Media</p>
                 <ul>
                   <li>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/ode-conf">Github</a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/imconfde">Github</a>
                   </li>
                   <li>
                     <a target="_blank" rel="noreferrer" href="https://twitter.com/burhankocadag0">Twitter</a>

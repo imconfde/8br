@@ -6,7 +6,7 @@ function About() {
       <div className="container about">
         <div className="row">
           <div className="col-md-6 text-center">
-            <img alt="about" src={require('../img/ode-logo.jpg')} className="img-fluid" />
+            <img alt="about" src={require('../img/logo.jpg')} className="img-fluid" />
           </div>
           <div className="col-md-6">
             <h2 className="main-title">О КОНФЕРЕНЦИИ</h2>
