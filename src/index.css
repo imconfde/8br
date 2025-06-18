@@ -69,10 +69,6 @@ code {
   text-align: center;
 }
 
-.bgred {
-  background-color: red;
-}
-
 .btn {
   outline: 0;
   border: 0;
@@ -364,11 +360,16 @@ footer ul li a {
   right: 15px;
 }
 
-/* Committees */
+/* Organizers */
 .p-member {
   font-size: 18px;
   margin: 0;
   padding-bottom: 15px;
+}
+
+/* Registration */
+.deadline {
+  color: #144e9d;
 }
 
 /* Services */

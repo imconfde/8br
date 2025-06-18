@@ -1,7 +1,6 @@
 import About from './About';
 import Organizers from './Organizers';
 import Registration from './Registration';
-import Contact from './Contact';
 
 function Main() {
   return (
@@ -10,7 +9,6 @@ function Main() {
         <About />
         <Organizers />
         <Registration />
-        <Contact />
       </main>
     </>
   );
