@@ -1,8 +1,6 @@
 import { Link, animateScroll as scroll } from 'react-scroll'
 
 function Footer() {
-
-
   return (
     <footer>
       <div className="container">
@@ -10,31 +8,16 @@ function Footer() {
           <div className="side1">
             <div className="row">
               <div className="col-md-3">
-                <h1 className="logo">Logo</h1>
-                <p className="footer-text">
-                  Lorem ipsum Here are thriteen health benefits of apples Lorem
-        
-                </p>
-              </div>
-              <div className="col-md-3">
-                <p className="footer-title">Important Link</p>
+                <p className="footer-title">Контактные данные</p>
                 <ul>
                   <li>
-                  <Link   
-                         spy={true}
-                         smooth={true}
-                         duration={1000}
-                         to="headerbg"
-                  > Home </Link>
+                    <Link to="#">220030, г.Минск, пр. Независимости, 4, 541</Link>
                   </li>
                   <li>
-                  <Link to="services" spy={true} smooth={true} duration={1000} > Services </Link>
+                    <Link to="#">Телефон: (+375 17) 209-50-72</Link>
                   </li>
                   <li>
-                  <Link to="about-scroll" spy={true} smooth={true} duration={1000}>About Us  </Link>
-                  </li>
-                  <li>
-                  <Link to="contact" spy={true} smooth={true} duration={1000}> Contact  </Link>
+                    <Link to="#">Контактный e-mail: ?????</Link>
                   </li>
                 </ul>
               </div>
@@ -43,30 +26,18 @@ function Footer() {
           <div className="side2">
             <div className="row">
               <div className="col-md-3">
-                <p className="footer-title">Contact</p>
                 <ul>
                   <li>
-                    <Link to="#" >burhankcd@gmail.com</Link>
+                    <Link to="headerbg" spy={true} smooth={true} duration={1000}>Главная</Link>
                   </li>
                   <li>
-                    <Link to="#" > Burhan #3265</Link>
+                    <Link to="about-scroll" spy={true} smooth={true} duration={1000}>О конференции</Link>
                   </li>
                   <li>
-                    <Link to="#" >0212 444 44 44</Link>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-md-3">
-                <p className="footer-title">Social Media</p>
-                <ul>
-                  <li>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/imconfde">Github</a>
+                    <Link to="organizers-scroll" spy={true} smooth={true} duration={1000}>Организаторы</Link>
                   </li>
                   <li>
-                    <a target="_blank" rel="noreferrer" href="https://twitter.com/burhankocadag0">Twitter</a>
-                  </li>
-                  <li>
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/burhan-kocada%C4%9F-49a3331a5/">Linkedin</a>
+                    <Link to="registration-scroll" spy={true} smooth={true} duration={1000}>Регистрация</Link>
                   </li>
                 </ul>
               </div>
@@ -75,7 +46,6 @@ function Footer() {
         </div>
       </div>
       <button onClick={() => scroll.scrollToTop(2500)} src="" className="gotop"><i className="fas fa-level-up-alt"></i></button>
-
     </footer>
   );
 }

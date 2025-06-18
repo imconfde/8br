@@ -85,7 +85,7 @@ function Navbar() {
               <Link
                 onClick={openBar}
                 activeClass="active"
-                to="registration"
+                to="registration-scroll"
                 spy={true}
                 smooth={true}
                 duration={1000}

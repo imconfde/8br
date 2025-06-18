@@ -325,8 +325,8 @@ footer .logo {
   color: #fafafa;
   font-weight: 600;
   font-size: 22px;
-  margin-bottom: 0;
-  word-wrap:initial;
+  margin: 0;
+  word-wrap: initial;
 }
 
 footer ul {
