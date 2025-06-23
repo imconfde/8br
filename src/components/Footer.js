@@ -11,13 +11,13 @@ function Footer() {
                 <p className="footer-title">Контактные данные</p>
                 <ul>
                   <li>
-                    <Link to="#">220030, г.Минск, пр. Независимости, 4, 541</Link>
+                    <Link to="#">220030, г.Минск, пр. Независимости, 4, ауд. 541</Link>
                   </li>
                   <li>
                     <Link to="#">Телефон: (+375 17) 209-50-72</Link>
                   </li>
                   <li>
-                    <Link to="#">Контактный e-mail: ?????</Link>
+                    <Link to="#">E-mail: filiptsov@bsu.by</Link>
                   </li>
                 </ul>
               </div>
@@ -37,7 +37,7 @@ function Footer() {
                     <Link to="organizers-scroll" spy={true} smooth={true} duration={1000}>Организаторы</Link>
                   </li>
                   <li>
-                    <Link to="registration-scroll" spy={true} smooth={true} duration={1000}>Регистрация</Link>
+                    <Link to="registration-scroll" spy={true} smooth={true} duration={1000}>Регистрация и оформление докладов</Link>
                   </li>
                 </ul>
               </div>

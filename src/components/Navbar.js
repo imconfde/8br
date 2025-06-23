@@ -90,7 +90,7 @@ function Navbar() {
                 smooth={true}
                 duration={1000}
               >
-                Регистрация
+                Регистрация и оформление докладов
               </Link>
             </li>
           </ul>

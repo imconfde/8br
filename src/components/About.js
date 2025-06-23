@@ -32,7 +32,7 @@ function About() {
           </p>
           <h2 className="main-title">Важные даты</h2>
           <p style={{margin:'0 0 10px 0'}} className="main-p">Регистрация – до 1 октября 2025 г.</p>
-          <p style={{margin:'0 0 10px 0'}} className="main-p">Подача материалов доклада – до 15 октября 2025 г.</p>
+          <p style={{margin:'0 0 10px 0'}} className="main-p">Подача докладов – до 1 октября 2025 г.</p>
           <p style={{margin:'0'}} className="main-p">Работа конференции – 2-5 декабря 2025 г.</p>
         </div>
       </div>
