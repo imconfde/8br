@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/8br/static/css/main.6d0071ce.css",
-    "main.js": "/8br/static/js/main.55a52820.js",
+    "main.js": "/8br/static/js/main.802d3bc8.js",
     "static/media/bsu.jpg": "/8br/static/media/bsu.477dd7974d45b32d19b0.jpg",
     "static/media/logo.jpg": "/8br/static/media/logo.a0947380957ed0acec75.jpg",
     "index.html": "/8br/index.html",
     "main.6d0071ce.css.map": "/8br/static/css/main.6d0071ce.css.map",
-    "main.55a52820.js.map": "/8br/static/js/main.55a52820.js.map"
+    "main.802d3bc8.js.map": "/8br/static/js/main.802d3bc8.js.map"
   },
   "entrypoints": [
     "static/css/main.6d0071ce.css",
-    "static/js/main.55a52820.js"
+    "static/js/main.802d3bc8.js"
   ]
 }
