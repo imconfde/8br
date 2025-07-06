@@ -178,7 +178,7 @@ code {
   cursor: pointer;
   transition: transform 0.2s linear;
   position: fixed;
-  transform:translateX(300%);
+  transform: translateX(300%);
   top: 20px;
   right: 15px;
   z-index: 1;
@@ -189,7 +189,45 @@ code {
   margin-bottom: 0.45rem;
   width: 25px;
   height: 3px;
-  background-color: white;
+  background-color: #fafafa;
+}
+
+.button.pressed .burger {
+  display: none;
+}
+
+.button .cross {
+  display: none;
+}
+
+.button.pressed .cross {
+  display: block;
+}
+
+.cross {
+  position: relative;
+  left: -2px;
+  top: -7px;
+  width: 25px;
+  height: 25px;
+  transition: all 0.2s;
+}
+
+.cross:before, .cross:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 3px;
+  background-color: #fafafa;
+}
+
+.cross:before {
+  transform: rotate(45deg);
+}
+
+.cross:after {
+  transform: rotate(-45deg);
 }
 
 /* Header */

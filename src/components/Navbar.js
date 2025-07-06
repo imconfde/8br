@@ -25,8 +25,10 @@ function Navbar() {
   });
   function openBar() {
     const bar = document.querySelector(".bar");
+    const button = document.querySelector(".button");
 
     bar.classList.toggle("opened");
+    button.classList.toggle("pressed");
   }
 
   return (
@@ -98,6 +100,7 @@ function Navbar() {
             <div className="burger"></div>
             <div className="burger"></div>
             <div className="burger"></div>
+            <div className="cross"></div>
           </div>
         </div>
       </div>
