@@ -621,7 +621,7 @@ ul li a {
     padding: 0;
   }
   .btn {
-    padding:  10px 30px;
+    padding: 10px 30px;
   }
   .container {
     max-width: 540px; 
@@ -686,6 +686,9 @@ ul li a {
   }
   .main-title {
     font-size: 20px;
+  }
+  .about-title {
+    text-align: center;
   }
   .p-member {
     font-size: 14px;

@@ -9,7 +9,7 @@ function About() {
             <img alt="about" src={require('../img/logo.jpg')} className="img-fluid" />
           </div>
           <div className="col-md-6">
-            <h2 className="main-title">О КОНФЕРЕНЦИИ</h2>
+            <h2 className="main-title about-title">О КОНФЕРЕНЦИИ</h2>
             <p className="main-p">
               Со 2 по 5 декабря 2025 года в Белорусском государственном университете (БГУ) состоится
               международная научная конференция «Восьмые Богдановские чтения по дифференциальным уравнениям».
