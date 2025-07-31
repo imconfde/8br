@@ -17,7 +17,7 @@ function Registration() {
         <p className="main-p"><a title="Requirements dos" href="https://github.com/imconfde/8br-req-rus-dos" target="_blank" rel="noopener noreferrer">Example-rus(dos).tex</a> – для тех, кто работает в кодировке DOS на русском языке;</p>
         <p className="main-p"><a title="Requirements english" href="https://github.com/imconfde/8br-req-eng" target="_blank" rel="noopener noreferrer">Example.tex</a> – на английском языке.</p>
         <p className="main-p">
-          Доклады следует присылать до <b className="deadline">1 октября 2025 года</b>. Оргкомитет конференции оставляет за собой 
+          Доклады следует присылать до <b className="deadline">1 октября 2025 года</b> по электронному адресу <b>fmis@bsu.by</b>. Оргкомитет конференции оставляет за собой 
           право отклонить доклады, не соответствующие тематике конференции, требованиям к оформлению, а также присланные позднее установленного срока.
         </p>
         <p className="main-p">
