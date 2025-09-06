@@ -17,7 +17,7 @@ function Footer() {
                     <Link to="#" style={{cursor:'text'}}>Телефон: (+375 17) 209-50-72</Link>
                   </li>
                   <li>
-                    <Link to="#" style={{cursor:'text'}}>E-mail: filiptsov@bsu.by</Link>
+                    <Link to="#" style={{cursor:'text'}}>E-mail: fmis@bsu.by</Link>
                   </li>
                 </ul>
               </div>
