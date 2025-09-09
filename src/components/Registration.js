@@ -10,7 +10,7 @@ function Registration() {
           <a title="Registration form" style={{padding: '0 0 0 5px'}} href="https://forms.gle/9DN4Edd3EtNkhish8" target="_blank" rel="noopener noreferrer">регистрационную форму</a>.
         </p>
         <p className="main-p">
-          Оргкомитет планирует издание сборника материалов конференции до начала ее работы. Объем доклада должен составлять <b>не менее трех страниц</b>, 
+          Оргкомитет планирует издание сборника материалов конференции до начала ее работы. Объем доклада должен составлять <b>не более трех страниц</b>, 
           подготовленных в LaTeX согласно следующим требованиям:
         </p>
         <p className="main-p"><a title="Requirements windows" href="https://github.com/imconfde/8br-req-rus-win" target="_blank" rel="noopener noreferrer">Example-rus(win).tex</a> – для тех, кто работает в кодировке WINDOWS на русском языке;</p>
