@@ -31,8 +31,8 @@ function About() {
             Продолжительность докладов: пленарных – 40 минут, секционных – 15 минут.
           </p>
           <h2 className="main-title">Важные даты</h2>
-          <p style={{margin:'0 0 10px 0'}} className="main-p">Регистрация – до 1 октября 2025 г.</p>
-          <p style={{margin:'0 0 10px 0'}} className="main-p">Подача докладов – до 1 октября 2025 г.</p>
+          <p style={{margin:'0 0 10px 0'}} className="main-p">Регистрация – до 10 октября 2025 г.</p>
+          <p style={{margin:'0 0 10px 0'}} className="main-p">Подача докладов – до 10 октября 2025 г.</p>
           <p style={{margin:'0'}} className="main-p">Работа конференции – 2-5 декабря 2025 г.</p>
         </div>
       </div>

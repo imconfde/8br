@@ -6,7 +6,7 @@ function Registration() {
       <div className="container registration">
         <h2 className="main-title text-center">РЕГИСТРАЦИЯ И ОФОРМЛЕНИЕ ДОКЛАДОВ</h2>
         <p className="main-p">
-          Для участия в конференции необходимо до <b className="deadline">1 октября 2025 года</b> заполнить 
+          Для участия в конференции необходимо до <b className="deadline">10 октября 2025 года</b> заполнить 
           <a title="Registration form" style={{padding: '0 0 0 5px'}} href="https://forms.gle/9DN4Edd3EtNkhish8" target="_blank" rel="noopener noreferrer">регистрационную форму</a>.
         </p>
         <p className="main-p">
@@ -17,7 +17,7 @@ function Registration() {
         <p className="main-p"><a title="Requirements dos" href="https://github.com/imconfde/8br-req-rus-dos" target="_blank" rel="noopener noreferrer">Example-rus(dos).tex</a> – для тех, кто работает в кодировке DOS на русском языке;</p>
         <p className="main-p"><a title="Requirements english" href="https://github.com/imconfde/8br-req-eng" target="_blank" rel="noopener noreferrer">Example.tex</a> – на английском языке.</p>
         <p className="main-p">
-          Доклады следует присылать до <b className="deadline">1 октября 2025 года</b> по электронному адресу <b>fmis@bsu.by</b>. Оргкомитет конференции оставляет за собой 
+          Доклады следует присылать до <b className="deadline">10 октября 2025 года</b> по электронному адресу <b>fmis@bsu.by</b>. Оргкомитет конференции оставляет за собой 
           право отклонить доклады, не соответствующие тематике конференции, требованиям к оформлению, а также присланные позднее установленного срока.
         </p>
         <p className="main-p">
