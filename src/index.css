@@ -113,6 +113,10 @@ code {
   width:33.3%;
 }
 
+.hidden {
+  display: none;
+}
+
 /* Navbar */
 .navopened {
   background-color: #010606!important;

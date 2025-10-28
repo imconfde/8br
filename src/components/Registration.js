@@ -5,8 +5,8 @@ function Registration() {
 
       <div className="container registration">
         <h2 className="main-title text-center">РЕГИСТРАЦИЯ И ОФОРМЛЕНИЕ ДОКЛАДОВ</h2>
-        <p className="main-p">
-          Для участия в конференции необходимо до <b className="deadline">10 октября 2025 года</b> заполнить 
+        <p className="main-p hidden">
+          Для участия в конференции необходимо до <b className="deadline">10 октября 2025 года</b> заполнить
           <a title="Registration form" style={{padding: '0 0 0 5px'}} href="https://forms.gle/9DN4Edd3EtNkhish8" target="_blank" rel="noopener noreferrer">регистрационную форму</a>.
         </p>
         <p className="main-p">
