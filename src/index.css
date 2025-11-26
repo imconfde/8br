@@ -414,6 +414,45 @@ footer ul li a {
   color: #144e9d;
 }
 
+/* Program */
+.notification {
+  color: red;
+}
+
+.table {
+  display: flex;
+  flex-flow: column nowrap;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+.table-row {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+.cell-title {
+  flex-basis: 20%;
+  color: #144e9d;
+  font-weight: bold;
+}
+
+.cell-content {
+  flex-basis: 80%;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+ol {
+  font-size: 18px;
+}
+
+ol li {
+  padding-bottom: 15px;
+}
+
 /* Services */
 .card-title {
   color: #144e9d;
@@ -682,7 +721,7 @@ ul li a {
   .row {
     display: inline-block;
   }
-  .main-p {
+  .main-p, .table {
     font-size: 16px;
   }
   .main-p li {
@@ -701,6 +740,15 @@ ul li a {
   }
   .img-fluid {
     display: none;
+  }
+  h3 {
+  font-size: 18px;
+  }
+  ol {
+    font-size: 14px;
+  }
+  ol li {
+    padding-bottom: 10px;
   }
 }
 

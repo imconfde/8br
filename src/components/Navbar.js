@@ -95,6 +95,18 @@ function Navbar() {
                 Регистрация и оформление докладов
               </Link>
             </li>
+            <li>
+              <Link
+                onClick={openBar}
+                activeClass="active"
+                to="program-scroll"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
+                Программа
+              </Link>
+            </li>
           </ul>
           <div className="button" onClick={openBar}>
             <div className="burger"></div>

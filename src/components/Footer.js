@@ -39,6 +39,9 @@ function Footer() {
                   <li>
                     <Link to="registration-scroll" spy={true} smooth={true} duration={1000}>Регистрация и оформление докладов</Link>
                   </li>
+                  <li>
+                    <Link to="program-scroll" spy={true} smooth={true} duration={1000}>Программа</Link>
+                  </li>
                 </ul>
               </div>
             </div>
