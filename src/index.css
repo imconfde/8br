@@ -432,13 +432,13 @@ footer ul li a {
 }
 
 .cell-title {
-  flex-basis: 20%;
+  flex-basis: 30%;
   color: #144e9d;
   font-weight: bold;
 }
 
 .cell-content {
-  flex-basis: 80%;
+  flex-basis: 70%;
 }
 
 h3 {
